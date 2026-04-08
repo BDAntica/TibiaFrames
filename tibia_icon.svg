@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#1a4d66" stroke="#2d7aa0" stroke-width="2"/>
+  
+  <!-- Camera/Screenshot frame -->
+  <rect x="12" y="18" width="40" height="28" rx="3" fill="#f4f4f4" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- Inner image area -->
+  <rect x="15" y="21" width="34" height="22" fill="#87ceeb"/>
+  
+  <!-- Mountain silhouette (representing Tibia landscape) -->
+  <polygon points="15,35 22,28 28,32 35,25 42,30 49,27 49,43 15,43" fill="#228b22"/>
+  
+  <!-- Letter T with shadow effect -->
+  <text x="42" y="29" font-family="serif" font-size="10" font-weight="bold" fill="#b8860b">T</text>
+  <text x="41" y="28" font-family="serif" font-size="10" font-weight="bold" fill="#ffd700">T</text>
+  
+  <!-- Camera lens reflection -->
+  <circle cx="45" cy="15" r="3" fill="#333"/>
+  <circle cx="45" cy="15" r="2" fill="#666"/>
+  <circle cx="46" cy="14" r="0.5" fill="#fff"/>
+  
+  <!-- Tibia-style border decoration -->
+  <rect x="10" y="16" width="44" height="32" rx="4" fill="none" stroke="#8b4513" stroke-width="1"/>
+</svg>
