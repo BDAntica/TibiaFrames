@@ -9,9 +9,9 @@ A desktop app for browsing, organizing, and viewing Tibia game screenshots. Runs
 - **Copy to clipboard** — one-click copy of any screenshot (fast, no delay)
 - **Statistics panel** — activity breakdown by hour, day of week, month, and year
 - **Open folder** — jump straight to the folder containing any screenshot
-- **Dark/light theme** — toggleable from the toolbar
 - **Persistent window** — remembers size and position between sessions
 - **Auto-loads** default Tibia screenshot directory on startup
+- **Dark theme** - nobody likes the flashbangs.
 
 ## Supported screenshot categories
 
@@ -46,7 +46,7 @@ Requires Python, Pillow, and PyInstaller. The script cleans previous build artif
 TibiaFrames looks for screenshots in the default Tibia path on startup:
 
 ```
-C:\Users\<you>\Documents\Tibia\Screenshots
+"C:\Users\<you>\AppData\Local\Tibia\packages\Tibia\screenshots"
 ```
 
 You can also browse to any folder manually from the toolbar.
